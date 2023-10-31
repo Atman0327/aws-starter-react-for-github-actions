@@ -3,13 +3,13 @@ frontend:
   phases:
     test:
       commands:
-        - yarn test
+        - npm test
     preBuild:
       commands:
-        - yarn install
+        - npm install
     build:
       commands:
-        - yarn run build
+        - npm run build
   artifacts:
     baseDirectory: build
     files:
